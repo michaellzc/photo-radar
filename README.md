@@ -2,7 +2,7 @@
 
 > Please drive safely.
 
-Problematically accessible photo radar data in Canada.
+Photo radar location data in Canada.
 
 ## Why does this project exist?
 
