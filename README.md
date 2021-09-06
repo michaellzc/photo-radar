@@ -39,3 +39,7 @@ python run.py
 
 [icbc]: https://www.icbc.com/
 [ministry of transportation]: https://www2.gov.bc.ca/gov/content/transportation
+
+### Add data for a new provience
+
+Implement a new `fetcher` module similar to [photo_radar.fetcher.canada.bc](photo_radar/fetchers/canada/bc.py). The internal doesn't really matter, and it's a one-off script anyway. We just need to make sure the camera data can be persisted using the [camera](photo_radar/models.py) model.
