@@ -16,6 +16,10 @@ The goal of this project is to maintain a source of photo radar data across Cana
 
 - British Columbia, CA - [source](https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/roadsafetybc/intersection-safety-cameras/where-the-cameras-are)
 
+## Usage
+
+The location data in sqlite or csv can be downloaded from the [releases page](https://github.com/michaellzc/photo-radar/releases).
+
 ## Development
 
 ### Prereq
