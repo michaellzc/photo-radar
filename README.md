@@ -14,7 +14,7 @@ The goal of this project is to maintain a source of photo radar data across Cana
 
 ## Supported communities
 
-- British Columbia, CA - [source]()
+- British Columbia, CA - [source](https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/roadsafetybc/intersection-safety-cameras/where-the-cameras-are)
 
 ## Development
 
