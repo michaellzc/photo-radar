@@ -25,17 +25,22 @@ The location data in sqlite or csv can be downloaded from the [releases page](ht
 ### Prereq
 
 - Python 3.x (the latest)
+- Pipenv
 - Google API Key with Geocoding API enabled - [learn more](https://developers.google.com/maps/documentation/geocoding/get-api-key)
 
 ### Setup
 
 ```bash
-virtualenv venv --python=python3
-source venv/bin/activate
-pip install -r requirements.txt
+pipenv install --dev
 ```
 
 ### Run
+
+Start the virtual environment
+
+```bash
+pipenv shell
+```
 
 ```bash
 python run.py
