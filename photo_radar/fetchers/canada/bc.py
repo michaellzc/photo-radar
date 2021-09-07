@@ -81,11 +81,9 @@ def run():
         ],
     ).execute()
 
-    # some google map urls on BC websites are using the `/map/search` url without providing the (lat, lng) pair, unlike `/map/place`
-    cameras_without_coordinates = models.Camera.select().where(
-        models.Camera.lat == None, models.Camera.lon == None
-    )
-    for each in cameras_without_coordinates:
+    # geocode intersection address to coordinate, the encoded coordinates from ICBC-provided google map url is not accurate
+    cameras = models.Camera.select()
+    for each in cameras:
         result = utils.get_coordinate_by_address(each.street)
         coord = result["results"][0]["geometry"]["location"]
         each.lon = coord["lng"]
